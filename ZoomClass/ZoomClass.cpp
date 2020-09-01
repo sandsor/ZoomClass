@@ -1,8 +1,14 @@
 #include <iostream>
+#include <string>
 /*
 Comment Spot
 */
 int age;
+bool sw = true; // true = 1 || false = 0  bool is true or false
+char me = 'm';
+std::string name = "sander";
+double pi = 3.14; 
+
 
 int main() {
 
