@@ -8,8 +8,23 @@ bool sw = true; // true = 1 || false = 0  bool is true or false
 char me = 'm';
 std::string Fullname = "";
 double pi = 3.14; 
+int a = 10;
+int b = 5;
+int c = 20;
+int z = 10;
+
 
 int main() {
+
+	if (a > b) {
+		std::cout << "A is greater then B\n";
+	}
+	if (a == z) {
+		std::cout << "A and Z are equal\n";
+	}
+	if (a >= b) { // if ( a > z && a == z) can use && , || (|| means or)
+		std::cout << "Nothing happens here\n";
+	}
 
 	// text based code
 	std::cout << "enter your full name : " ;
